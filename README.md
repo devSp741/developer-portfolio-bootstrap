@@ -2,7 +2,10 @@
 
 A modern, clean, and fully responsive developer portfolio website built using **HTML**, **CSS**, and **Bootstrap 5**.
 
+**Live Demo:** [https://devsp741.github.io/developer-portfolio-bootstrap/](https://devsp741.github.io/developer-portfolio-bootstrap/)
+
 ## Features
+
 - **Mobile-first responsive design** - Optimized for all devices
 - **Modern UI with smooth animations** - AOS (Animate On Scroll) library integration
 - **Bootstrap 5 grid & components** - Professional layout and capability
@@ -16,6 +19,7 @@ A modern, clean, and fully responsive developer portfolio website built using **
 - **Easy to customize** - Well-organized code structure
 
 ## 🛠 Technologies Used
+
 - **HTML5** - Semantic markup
 - **CSS3** - Custom styling with CSS variables and gradients
 - **Bootstrap 5** - Responsive framework
@@ -25,14 +29,19 @@ A modern, clean, and fully responsive developer portfolio website built using **
 - **Vanilla JavaScript** - Interactive features
 
 ## Project Structure
+
 ```
 /
-├── index.html          # Main portfolio file
+├── index.html         # Main portfolio file
 ├── README.md          # Project documentation
-└── assets/            # Images and media (if added)
+├── favicon.png        # Site Icon
+├── robots.txt         # Search engine instructions
+├── sitemap.xml        # Sitemap for SEO
+├── Schema.org         # Structured data reference
 ```
 
 ## Sections Included
+
 1. **Navigation Bar** - Sticky navigation with theme toggle
 2. **Hero Section** - Eye-catching intro with call-to-action buttons
 3. **Skills Section** - Display technical skills with icons
@@ -42,12 +51,15 @@ A modern, clean, and fully responsive developer portfolio website built using **
 7. **Footer** - Social media links and copyright
 
 ## How to Use
+
 1. Clone the repository
+
    ```bash
    git clone https://github.com/devSp741/developer-portfolio-bootstrap.git
    ```
 
 2. Navigate to the project directory
+
    ```bash
    cd developer-portfolio-bootstrap
    ```
@@ -59,6 +71,7 @@ A modern, clean, and fully responsive developer portfolio website built using **
    Or simply double-click the `index.html` file
 
 ## Customization
+
 - Edit the personal information in `index.html` (Name, title, descriptions)
 - Modify color scheme by changing CSS variables in the `<style>` section
 - Update skills, projects, and experience sections with your content
@@ -66,16 +79,20 @@ A modern, clean, and fully responsive developer portfolio website built using **
 - Customize the contact form action
 
 ## Browser Support
+
 - Chrome (latest)
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
 
-## 📄 License
+## License
+
 This project is open source and available under the MIT License.
 
 ## Author
+
 **Satyam Prajapati** - Full-Stack Developer
 
 ## Contributing
+
 Feel free to fork this project and customize it for your own portfolio!
