@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://devsp741.github.io/developer-portfolio-bootstrap/sitemap.xml

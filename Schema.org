@@ -1,0 +1,116 @@
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Satyam Prajapati",
+  "url": "https://devsp741.github.io/developer-portfolio-bootstrap/",
+  "description": "Full-Stack Developer Portfolio showcasing projects in React, Node.js, and Cloud Technologies",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://devsp741.github.io/developer-portfolio-bootstrap/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+<!-- Person Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Satyam Prajapati",
+  "jobTitle": "Full-Stack Developer",
+  "url": "https://devsp741.github.io/developer-portfolio-bootstrap/",
+  "image": "https://devsp741.github.io/developer-portfolio-bootstrap/images/profile.jpg",
+  "sameAs": [
+    "https://github.com/devSp741",
+    "https://linkedin.com/in/satyam-prajapati",
+    "https://twitter.com/satyam",
+    "https://stackoverflow.com/users/satyam"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Tech Solutions Inc."
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "San Francisco",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "email": "developersp741@gmail.com",
+  "telephone": "+1 (555) 123-4567",
+  "knowsAbout": ["React", "Node.js", "Python", "AWS", "Web Development", "UI/UX Design", "Blockchain", "AI"]
+}
+</script>
+
+<!-- Portfolio Projects Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "E-Commerce Platform",
+        "description": "A full-featured online shopping platform with real-time inventory and payment processing.",
+        "author": { "@type": "Person", "name": "Satyam Prajapati" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Task Management App",
+        "description": "Collaborative task management tool with real-time updates and team analytics.",
+        "author": { "@type": "Person", "name": "Satyam Prajapati" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Analytics Dashboard",
+        "description": "Real-time data visualization dashboard for business intelligence and reporting.",
+        "author": { "@type": "Person", "name": "Satyam Prajapati" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Fitness Tracking App",
+        "description": "Cross-platform mobile application for tracking workouts and nutrition.",
+        "author": { "@type": "Person", "name": "Satyam Prajapati" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "AI Content Platform",
+        "description": "AI-powered content generation platform with natural language processing.",
+        "author": { "@type": "Person", "name": "Satyam Prajapati" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "CreativeWork",
+        "name": "Blockchain Wallet",
+        "description": "Secure cryptocurrency wallet with multi-signature support and DeFi integration.",
+        "author": { "@type": "Person", "name": "Satyam Prajapati" }
+      }
+    }
+  ]
+}
+</script>
